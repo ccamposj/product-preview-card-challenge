@@ -28,20 +28,18 @@ body {
   padding: 1rem;
 }
 
+.product-img {
+  width: 100%;
+}
+
 .product-card {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 3fr 4fr;
+  display: flex;
+  flex-direction: column;
   background-color: var(--white);
   border-radius: 9px;
   max-width: 95vw;
   margin: 1.2rem auto;
   overflow: hidden;
-}
-
-.img-box {
-  background-image: url("images/image-product-mobile.jpg");
-  background-size: cover;
 }
 
 .text-box {
@@ -157,12 +155,6 @@ body {
   .product-description {
     font-size: 0.8rem;
     line-height: 1.5;
-  }
-
-  .img-box {
-    background-image: url("images/image-product-desktop.jpg");
-    background-size: cover;
-    background-position: center;
   }
 
   .text-box {
